@@ -6,6 +6,7 @@ import GitHubIcon from '@/icons/Github'
 import LinkIcon from '@/icons/Link'
 import TelephoneIcon from '@/icons/Phone'
 import { FormattedText } from '@/features/pdf/formatter/formattedText'
+import EnvelopeIcon from '@/icons/Mail'
 
 const icon = (type) => {
   switch (type) {
@@ -15,6 +16,8 @@ const icon = (type) => {
       return <GitHubIcon width="10" height="10" />
     case 'phone':
       return <TelephoneIcon width="10" height="10" />
+    case 'email':
+      return <EnvelopeIcon width="10" height="10" />
     case 'website':
     case 'link':
     default:

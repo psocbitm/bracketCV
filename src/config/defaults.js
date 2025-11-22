@@ -79,22 +79,22 @@ export const INITIAL_CONFIG = {
           value: [
             {
               value:
-                'Spearheaded development of <b>Acquirer Cards UI</b> for millions of users, significantly improving accessibility and cross-device responsiveness.',
+                'Architected and implemented the <b>Acquirer Cards feature</b>, enabling ATM compatibility for non-Wells Fargo cards, serving millions of users globally.',
               display: true,
             },
             {
               value:
-                'Migrated legacy Redux architecture to <b>Redux Toolkit + Redux Saga</b>, reducing boilerplate code by <i>35%</i> and accelerating feature delivery.',
+                'Optimized state management by transitioning from Redux to <b>Redux Toolkit</b>, cutting code complexity by <i>35%</i> and boosting development speed.',
               display: true,
             },
             {
               value:
-                'Engineered dynamic dashboards and data visualization components using <b>React</b> & <b>D3.js</b> to derive actionable transaction insights.',
+                'Identified and fixed <b>90+ production issues</b>, reducing system downtime by <b>25%</b> and enhancing application stability.',
               display: true,
             },
             {
               value:
-                'Optimized frontend performance, reducing initial load time by <b>28%</b> through implementation of lazy loading, code splitting, and bundle optimization.',
+                'Worked in an agile team, integrating <b>CI/CD pipelines</b> to streamline deployment processes.',
               display: true,
             },
           ],
@@ -131,22 +131,22 @@ export const INITIAL_CONFIG = {
           value: [
             {
               value:
-                'Developed an omnichannel transaction portal UI, integrating <b>REST APIs</b> and <b>WebSockets</b> to facilitate real-time data updates.',
+                'Handled a <b>Spring Boot middleware</b> to handle 5M+ daily transactions, ensuring seamless data exchange between banking channels and downstream systems.',
               display: true,
             },
             {
               value:
-                'Implemented complex form handling and validation architectures using <b>React Hook Form</b> and <b>Yup</b>.',
+                'Developed features for an omnichannel transaction platform, integrating <b>MongoDB</b>, <b>Oracle</b>, and <b>REST APIs</b> for unified data access and enhanced user experience.',
               display: true,
             },
             {
               value:
-                'Optimized UI rendering for large datasets using virtualized lists, reducing memory usage and boosting scrolling performance by <b>40%</b>.',
+                'Maintained and scaled <b>Java-based microservices</b>, delivering critical bug fixes and feature enhancements to ensure system reliability.',
               display: true,
             },
             {
               value:
-                'Executed comprehensive unit and integration testing (Jest, React Testing Library), increasing frontend test coverage to <b>85%</b>.',
+                'Automated complex financial workflows using <b>UiPath RPA</b>, significantly reducing manual effort and boosting operational efficiency.',
               display: true,
             },
           ],
@@ -183,12 +183,12 @@ export const INITIAL_CONFIG = {
           value: [
             {
               value:
-                'Architected student and mentor dashboards in <b>React.js</b> featuring responsive layouts and modular, reusable components.',
+                'Built and optimized <b>RESTful APIs</b> and <b>GraphQL endpoints</b> using <b>Node.js</b> and <b>React.js</b>, enabling seamless communication between the frontend and backend systems.',
               display: true,
             },
             {
               value:
-                'Designed interactive UI flows for course enrollment and progress tracking, resulting in a <b>25%</b> increase in user engagement.',
+                'Designed <b>MongoDB schemas</b> with targeted indexing, reducing average query times by over <b>30%</b> and supporting scalable data access.',
               display: true,
             },
           ],
@@ -206,7 +206,7 @@ export const INITIAL_CONFIG = {
     value: [
       {
         institution: {
-          value: 'Birla Institute of Technology, Mesra',
+          value: 'Birla Institute of Technology',
           display: true,
         },
         display: true,
@@ -215,7 +215,7 @@ export const INITIAL_CONFIG = {
           display: false,
         },
         stream: {
-          value: '<b>Bachelor of Technology</b> <i>in</i> Computer Science',
+          value: '<b>B.Tech</b> <i>in</i> Computer Science',
           display: true,
         },
         degree: {
@@ -231,12 +231,12 @@ export const INITIAL_CONFIG = {
           display: true,
         },
         score: {
-          value: 'GPA: <b>8.51</b> / 10.0',
+          value: 'GPA: <b>8.51</b> / 10',
           display: true,
         },
         relevantCoursework: {
           value:
-            '<b>Relevant Coursework</b>: Data Structures & Algorithms (C++), Operating Systems, OOP, DBMS, System Design',
+            '<b>Relevant Coursework</b>: Data Structures & Algorithms (C++), Operating Systems, Object Oriented Programming, Database Management Systems (RDBMS), System Design',
           display: true,
         },
       },
@@ -252,7 +252,7 @@ export const INITIAL_CONFIG = {
         },
         keywords: {
           display: true,
-          value: '<b>JavaScript (ES6+)</b>, <b>TypeScript</b>, <b>Java</b>, <b>C++</b>',
+          value: '<b>Java</b>, <b>JavaScript</b>, <b>C++</b>, <b>TypeScript</b>',
         },
         display: true,
       },
@@ -263,18 +263,18 @@ export const INITIAL_CONFIG = {
         },
         keywords: {
           display: true,
-          value: 'React, Node.js, Spring Boot, Redux Toolkit, MongoDB, MySQL, Redis, WebSockets',
+          value: 'React, Spring Boot, Node.js, Redux, MySQL, MongoDB, Redis, Websocket, Express.js',
         },
         display: true,
       },
       {
         name: {
-          value: '<b>Tools & DevOps</b>',
+          value: '<b>Tools & Others</b>',
           display: true,
         },
         keywords: {
           display: true,
-          value: 'Git, AWS, Docker, Linux, REST APIs, Jest',
+          value: 'Git, Linux, Rest APIs, AWS, Docker',
         },
         display: true,
       },
@@ -289,33 +289,37 @@ export const INITIAL_CONFIG = {
           display: true,
         },
         description: {
-          value:
-            'Real-time collaborative code editor supporting multiple languages with instant execution.',
-          display: true,
+          value: 'Real-time online code compiler supporting C++, Java, Python, and JavaScript.',
+          display: false,
         },
         highlights: {
           display: true,
           value: [
             {
               value:
-                'Built a <b>real-time</b> collaborative editor UI supporting syntax highlighting and instant code execution feedback.',
+                'Built a real-time online code compiler supporting C++, Java, Python, and JavaScript, using <b>WebSockets</b> for instant, bi-directional communication between client and server.',
               display: true,
             },
             {
               value:
-                'Integrated <b>WebSocket-based</b> synchronization to handle concurrent user edits with low latency.',
+                'Designed a scalable backend architecture leveraging <b>Redis</b> as a message queue to manage and prioritize code execution requests efficiently.',
               display: true,
             },
             {
               value:
-                'Designed a responsive, IDE-like experience featuring custom themes, keyboard shortcuts, and error highlighting.',
+                'Developed a <b>Node.js</b> execution service that runs code in secure, sandboxed <b>Docker</b> containers, ensuring system isolation and protection against malicious code.',
+              display: true,
+            },
+            {
+              value:
+                'Utilized <b>Redis Pub/Sub</b> to asynchronously broadcast execution results to users, enabling non-blocking communication and high system throughput.',
               display: true,
             },
           ],
         },
         skills: {
           display: true,
-          value: '<b>Stack</b>: <i>React.js, Node.js, Docker, Redis, WebSockets</i>',
+          value: '<b>Stack</b>: <i>Docker, Redis, React.js, Node.js, WebSockets, JavaScript</i>',
         },
         startDate: {
           value: '',
@@ -326,7 +330,7 @@ export const INITIAL_CONFIG = {
           display: false,
         },
         url: {
-          value: 'View Source Code',
+          value: 'https://github.com/psocbitm',
           display: true,
         },
         display: true,
@@ -337,33 +341,32 @@ export const INITIAL_CONFIG = {
           display: true,
         },
         description: {
-          value:
-            'High-performance Java CLI tool utilizing <b>multithreading</b> for accelerated transfers.',
-          display: true,
+          value: 'Java-based downloader using multithreading to accelerate file transfers.',
+          display: false,
         },
         highlights: {
           display: true,
           value: [
             {
               value:
-                'Developed a multithreaded downloader that accelerates file transfers by <b>55%</b> for large datasets compared to single-threaded solutions.',
+                'Developed a Java-based downloader using <b>multithreading</b>, accelerating file transfers by <b>55%</b> for large datasets.',
               display: true,
             },
             {
               value:
-                'Leveraged <b>HTTP range requests</b> to split files into chunks for parallel downloading, minimizing bandwidth bottlenecks.',
+                'Leveraged <b>HTTP range requests</b> for parallel chunk downloads, minimizing bandwidth usage.',
               display: true,
             },
             {
               value:
-                'Integrated efficient thread pool management to lower CPU utilization by <b>20%</b> during peak loads.',
+                'Integrated resource-efficient thread management, lowering CPU utilization by <b>20%</b>.',
               display: true,
             },
           ],
         },
         skills: {
           display: true,
-          value: '<b>Stack</b>: <i>Java, Multithreading, HTTP Protocol</i>',
+          value: '<b>Stack</b>: <i>Java, Multithreading</i>',
         },
         startDate: {
           value: '',
@@ -384,9 +387,9 @@ export const INITIAL_CONFIG = {
   achievements: {
     display: true,
     value: [
-      'Received the <b>Wells Fargo Spotlight Award (2024)</b> for outstanding performance and code contributions.',
-      'Secured <b>14th place</b> among 200+ teams in the national level Re-Imagining Markets Datathon.',
-      'Ranked in the <b>Top 1%</b> nationwide in JEE Advanced (2019) among 200,000+ candidates.',
+      'Secured <b>14th place</b> among 200+ teams in the Re-Imagining Markets Datathon.',
+      'Honored with the <b>Wells Fargo Spotlight Award</b> in 2024 for outstanding performance and contributions.',
+      'Ranked in the <b>top 1%</b> nationwide in JEE Advanced (2019).',
     ],
   },
 }
