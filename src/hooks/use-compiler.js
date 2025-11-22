@@ -23,7 +23,6 @@ export function useCompiler() {
     } catch (e) {
       console.warn('Compilation Failed:', e.message)
       setError(e)
-
       return false
     }
   }, [])
