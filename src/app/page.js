@@ -21,7 +21,7 @@ function ResumeWorkspace() {
   const { pdfData, updateCode, initialCode, compilerError, triggerCompile } = useResume()
 
   const left = (
-    <section className="flex flex-col h-full relative border-r border-gray-200">
+    <section className="flex flex-col h-full relative border-r border-white/10">
       <div className="flex-1 relative">
         <EditorModule
           initialValue={initialCode}
@@ -37,7 +37,7 @@ function ResumeWorkspace() {
   )
 
   const right = (
-    <div className="h-full w-full flex items-center justify-center relative bg-gray-100/50 overflow-hidden">
+    <div className="h-full w-full flex items-center justify-center relative overflow-hidden">
       {compilerError ? (
         <CrashError
           error={compilerError}

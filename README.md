@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# bracketCV
 
-## Getting Started
+**The "No-Nonsense" Resume Generator for Developers**
 
-First, run the development server:
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/psocbitm/bracketCV)
+
+## 🎯 Quick Start
+
+**Already deployed!** Jump straight to **[bracket-cv.vercel.app](https://bracket-cv.vercel.app/)** and start building your resume in minutes.
+
+---
+
+## 🧐 What is this?
+
+**bracketCV** is a tool for developers who believe resume data belongs in a JSON object, not trapped in a `.docx` file. We take your raw **JSON** and compile it into a crisp, ATS-friendly, **two-column resume** that actually looks good.
+
+---
+
+## 🥊 Why use this? (A.K.A. The Rant)
+
+**vs. Microsoft Word:** Because moving an image 2mm to the left shouldn't cascade into a formatting apocalypse on page 3.
+
+**vs. LaTeX:** Because you shouldn't need a PhD to update your email address or debug `Overfull \hbox (15.2pt too wide)` errors. Get the LaTeX _aesthetic_ without the `\documentclass{panic}`.
+
+**vs. Photoshop/Canva:** Because recruiters actually need to _copy_ your text. Pretty pictures won't parse through ATS systems.
+
+**vs. Online Resume Builders:** Because paywalls, watermarks, and "premium templates" are the enemy of productivity.
+
+---
+
+## 🚀 Features
+
+- **JSON-Driven:** Your career in structured, version-controllable data
+- **Two-Column Layout:** Clean, professional design that's easy to scan
+- **Live Preview:** Built with Next.js—see changes instantly
+- **Print Perfect:** CSS optimized for `Ctrl + P` → Save as PDF
+- **ATS-Friendly:** Passes Applicant Tracking Systems without black magic
+- **Developer-First:** No drag-and-drop nonsense. Just code, data, and results.
+
+---
+
+## 🌐 Deployment Options
+
+### Option 1: Use the Live Site (Easiest)
+
+Just visit **[bracket-cv.vercel.app](https://bracket-cv.vercel.app/)** and start editing your resume immediately. No setup required.
+
+### Option 2: Self-Host (For Customization)
+
+#### 1. Clone the repo
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/psocbitm/bracketCV.git
+cd bracketCV
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### 2. Install dependencies
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#### 3. Edit your data
 
-## Learn More
+Open the JSON file (typically in `src/data/` or `public/`) and update it with your information:
 
-To learn more about Next.js, take a look at the following resources:
+- Add your name and contact info
+- List your experience and skills
+- Flex your achievements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### 4. Run locally
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+pnpm run dev
+```
 
-## Deploy on Vercel
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### 5. Export your resume
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Hit `Ctrl + P` (or `Cmd + P` on Mac) and save as PDF. Done.
+
+---
+
+## 💻 Tech Stack
+
+- **Next.js** – React framework for blazing-fast performance
+- **JavaScript** – The glue that holds it all together
+- **Tailwind CSS** – Utility-first styling without the bloat
+- **Vercel** – Instant deployments with zero config
+
+---
+
+## 🤝 Contributing
+
+Found a bug? Want to add dark mode? Got ideas for new layouts?
+
+**Pull requests are welcome!**
+
+1. Fork it
+2. Branch it (`git checkout -b feature/amazing-idea`)
+3. Commit it (`git commit -m 'Add amazing feature'`)
+4. Push it (`git push origin feature/amazing-idea`)
+5. PR it
+
+---
+
+## 📝 License
+
+MIT License – Do whatever you want with this. Build your resume empire.
+
+---
+
+## 🙌 Show Some Love
+
+If this saved you from Word hell or LaTeX purgatory, drop a ⭐ on the [GitHub repo](https://github.com/psocbitm/bracketCV)!
+
+---
+
+**Made with chai and mild frustration by developer, for developers.**

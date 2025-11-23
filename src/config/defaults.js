@@ -252,7 +252,7 @@ export const INITIAL_CONFIG = {
         },
         keywords: {
           display: true,
-          value: '<b>Java</b>, <b>JavaScript</b>, <b>C++</b>, <b>TypeScript</b>',
+          value: 'Java, JavaScript, C++, TypeScript',
         },
         display: true,
       },

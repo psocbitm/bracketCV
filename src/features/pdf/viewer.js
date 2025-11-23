@@ -3,7 +3,8 @@ import React, { useEffect, useState, useMemo, useRef } from 'react'
 import { pdf } from '@react-pdf/renderer'
 import TwoColResume from './views/two-col/twoColResume'
 import { registerFonts } from './fontRegister'
-import { Loader2, FileText } from 'lucide-react'
+import { Loader2 } from 'lucide-react'
+import { File } from 'lucide-react'
 
 registerFonts()
 
@@ -69,6 +70,7 @@ const PdfView = ({ data }) => {
             text-sm font-medium
             transition-all duration-200 ease-in-out
             border
+            cursor-pointer
             ${
               loading
                 ? 'bg-zinc-900/50 border-zinc-800 text-zinc-500 cursor-not-allowed'
@@ -80,7 +82,7 @@ const PdfView = ({ data }) => {
             {loading ? (
               <Loader2 className="w-3.5 h-3.5 animate-spin text-zinc-500" />
             ) : (
-              <FileText
+              <File
                 className="w-3.5 h-3.5 text-blue-400 transition-colors group-hover:text-blue-300 group-hover:fill-blue-400/10"
                 strokeWidth={2}
               />
