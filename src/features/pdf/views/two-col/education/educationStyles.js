@@ -31,6 +31,6 @@ export const educationStyles = StyleSheet.create({
     alignItems: 'baseline',
   },
   relevantCoursework: {
-    fontSize: fontSizes['2xs'],
+    // fontSize: fontSizes['2xs'],
   },
 })

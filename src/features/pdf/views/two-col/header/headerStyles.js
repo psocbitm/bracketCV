@@ -5,12 +5,12 @@ export const headerStyles = StyleSheet.create({
   headerContainer: {
     display: 'flex',
     flexDirection: 'column',
-    gap: 3,
+    gap: 5,
   },
   nameContainer: {
     display: 'flex',
     flexDirection: 'row',
-    gap: 3,
+    gap: 5,
     alignItems: 'center',
     fontSize: fontSizes.huge,
   },
@@ -22,7 +22,7 @@ export const headerStyles = StyleSheet.create({
   contactInfosContainer: {
     display: 'flex',
     flexDirection: 'row',
-    gap: 3,
+    gap: 5,
     justifyContent: 'space-between',
     fontSize: fontSizes['xs'],
     flexWrap: 'wrap',

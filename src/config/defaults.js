@@ -11,7 +11,7 @@ export const INITIAL_CONFIG = {
         display: true,
       },
       designation: {
-        value: 'Software Engineer | <b>Full Stack Developer</b>',
+        value: '<b>Software Engineer</b> | Full Stack Developer',
         display: true,
       },
       contactInfos: {
@@ -47,7 +47,7 @@ export const INITIAL_CONFIG = {
   },
   summary: {
     value:
-      '<b>Software Engineer</b> with <i>2+ years</i> of experience building scalable web applications using <b>Java</b>, <b>JavaScript</b>, <b>TypeScript</b>, and <b>React</b>. Proficient in <b>Spring Boot</b>, <b>Node.js</b>, <b>Docker</b>, and <b>AWS</b>, delivering secure, high-performance solutions.',
+      '<b>Software Engineer</b> with <b>2+ years</b> of experience building backend and full stack applications using <b>Java</b>, <b>Spring Boot</b>, and <b>REST APIs</b>. Experienced in production systems, high-volume transaction flows, and delivering reliable features in enterprise environments.',
     display: true,
   },
   work: {
@@ -67,7 +67,7 @@ export const INITIAL_CONFIG = {
           display: false,
         },
         startDate: {
-          value: '<i>08-2023</i>',
+          value: '<i>Aug-2023</i>',
           display: true,
         },
         endDate: {
@@ -79,29 +79,29 @@ export const INITIAL_CONFIG = {
           value: [
             {
               value:
-                'Architected and implemented the <b>Acquirer Cards feature</b>, enabling ATM compatibility for non-Wells Fargo cards, serving millions of users globally.',
+                'Developed Acquirer Cards support enabling non-Wells Fargo cards to operate on Wells Fargo ATMs across multiple regions.',
               display: true,
             },
             {
               value:
-                'Optimized state management by transitioning from Redux to <b>Redux Toolkit</b>, cutting code complexity by <i>35%</i> and boosting development speed.',
+                'Improved frontend state management by migrating to Redux Toolkit, reducing code duplication and improving maintainability.',
               display: true,
             },
             {
               value:
-                'Identified and fixed <b>90+ production issues</b>, reducing system downtime by <b>25%</b> and enhancing application stability.',
+                'Resolved <b>90+ defects</b> across DEV and UAT environments through root cause analysis and coordinated fixes.',
               display: true,
             },
             {
               value:
-                'Worked in an agile team, integrating <b>CI/CD pipelines</b> to streamline deployment processes.',
+                'Automated manual finance workflows using UiPath RPA, reducing operational effort and turnaround time.',
               display: true,
             },
           ],
         },
         location: {
           display: true,
-          value: 'Bengaluru, India',
+          value: '<i>Bengaluru, India</i>',
         },
         display: true,
       },
@@ -119,11 +119,11 @@ export const INITIAL_CONFIG = {
           display: false,
         },
         startDate: {
-          value: '<i>02-2023</i>',
+          value: '<i>Feb-2023</i>',
           display: true,
         },
         endDate: {
-          value: '<i>08-2023</i>',
+          value: '<i>Aug-2023</i>',
           display: true,
         },
         highlights: {
@@ -131,29 +131,24 @@ export const INITIAL_CONFIG = {
           value: [
             {
               value:
-                'Handled a <b>Spring Boot middleware</b> to handle 5M+ daily transactions, ensuring seamless data exchange between banking channels and downstream systems.',
+                'Contributed to Spring Boot middleware handling <b>5M+ daily transactions</b> across multiple banking channels.',
               display: true,
             },
             {
               value:
-                'Developed features for an omnichannel transaction platform, integrating <b>MongoDB</b>, <b>Oracle</b>, and <b>REST APIs</b> for unified data access and enhanced user experience.',
+                'Implemented backend features using Java, MongoDB, Oracle, and REST APIs for an omnichannel platform.',
               display: true,
             },
             {
               value:
-                'Maintained and scaled <b>Java-based microservices</b>, delivering critical bug fixes and feature enhancements to ensure system reliability.',
-              display: true,
-            },
-            {
-              value:
-                'Automated complex financial workflows using <b>UiPath RPA</b>, significantly reducing manual effort and boosting operational efficiency.',
+                'Supported production issues and improved stability of Java-based microservices.',
               display: true,
             },
           ],
         },
         location: {
           display: true,
-          value: 'Bengaluru, India',
+          value: '<i>Bengaluru, India</i>',
         },
         display: true,
       },
@@ -171,11 +166,11 @@ export const INITIAL_CONFIG = {
           display: false,
         },
         startDate: {
-          value: '<i>2022-12</i>',
+          value: '<i>Dec-2022</i>',
           display: true,
         },
         endDate: {
-          value: '<i>2023-01</i>',
+          value: '<i>Jan-2023</i>',
           display: true,
         },
         highlights: {
@@ -183,19 +178,18 @@ export const INITIAL_CONFIG = {
           value: [
             {
               value:
-                'Built and optimized <b>RESTful APIs</b> and <b>GraphQL endpoints</b> using <b>Node.js</b> and <b>React.js</b>, enabling seamless communication between the frontend and backend systems.',
+                'Built REST and GraphQL APIs using Node.js to enable frontend-backend communication.',
               display: true,
             },
             {
-              value:
-                'Designed <b>MongoDB schemas</b> with targeted indexing, reducing average query times by over <b>30%</b> and supporting scalable data access.',
+              value: 'Designed MongoDB schemas and indexes to support efficient data access.',
               display: true,
             },
           ],
         },
         location: {
           display: true,
-          value: 'Remote',
+          value: '<i>Remote</i>',
         },
         display: true,
       },
@@ -215,7 +209,7 @@ export const INITIAL_CONFIG = {
           display: false,
         },
         stream: {
-          value: '<b>B.Tech</b> <i>in</i> Computer Science',
+          value: '<b>B.Tech</b> in Computer Science',
           display: true,
         },
         degree: {
@@ -223,11 +217,11 @@ export const INITIAL_CONFIG = {
           display: true,
         },
         startDate: {
-          value: '<i>2019</i>',
+          value: '<i>Jul-2019</i>',
           display: true,
         },
         endDate: {
-          value: '<i>2023</i>',
+          value: '<i>May-2023</i>',
           display: true,
         },
         score: {
@@ -236,7 +230,7 @@ export const INITIAL_CONFIG = {
         },
         relevantCoursework: {
           value:
-            '<b>Relevant Coursework</b>: Data Structures & Algorithms (C++), Operating Systems, Object Oriented Programming, Database Management Systems (RDBMS), System Design',
+            'Data Structures & Algorithms, Operating Systems, Object Oriented Programming, Database Management Systems, System Design',
           display: true,
         },
       },
@@ -247,34 +241,35 @@ export const INITIAL_CONFIG = {
     value: [
       {
         name: {
-          value: '<b>Languages</b>',
+          value: 'Languages',
           display: true,
         },
         keywords: {
           display: true,
-          value: 'Java, JavaScript, C++, TypeScript',
+          value: 'Java, JavaScript, TypeScript, C++',
         },
         display: true,
       },
       {
         name: {
-          value: '<b>Frameworks & Technologies</b>',
+          value: 'Frameworks & Technologies',
           display: true,
         },
         keywords: {
           display: true,
-          value: 'React, Spring Boot, Node.js, Redux, MySQL, MongoDB, Redis, Websocket, Express.js',
+          value:
+            'Spring Boot, React, Node.js, Redux Toolkit, MySQL, MongoDB, Redis, WebSocket, Express.js',
         },
         display: true,
       },
       {
         name: {
-          value: '<b>Tools & Others</b>',
+          value: 'Tools & Others',
           display: true,
         },
         keywords: {
           display: true,
-          value: 'Git, Linux, Rest APIs, AWS, Docker',
+          value: 'Git, Linux, REST APIs, Docker, AWS',
         },
         display: true,
       },
@@ -289,7 +284,7 @@ export const INITIAL_CONFIG = {
           display: true,
         },
         description: {
-          value: 'Real-time online code compiler supporting C++, Java, Python, and JavaScript.',
+          value: 'Real-time online code compiler.',
           display: false,
         },
         highlights: {
@@ -297,29 +292,27 @@ export const INITIAL_CONFIG = {
           value: [
             {
               value:
-                'Built a real-time online code compiler supporting C++, Java, Python, and JavaScript, using <b>WebSockets</b> for instant, bi-directional communication between client and server.',
+                'Built a real-time online code compiler supporting C++, Java, Python, and JavaScript.',
+              display: true,
+            },
+            {
+              value: 'Used Redis to manage concurrent code execution requests.',
               display: true,
             },
             {
               value:
-                'Designed a scalable backend architecture leveraging <b>Redis</b> as a message queue to manage and prioritize code execution requests efficiently.',
+                'Executed user code inside Docker containers to ensure isolation and security.',
               display: true,
             },
             {
-              value:
-                'Developed a <b>Node.js</b> execution service that runs code in secure, sandboxed <b>Docker</b> containers, ensuring system isolation and protection against malicious code.',
-              display: true,
-            },
-            {
-              value:
-                'Utilized <b>Redis Pub/Sub</b> to asynchronously broadcast execution results to users, enabling non-blocking communication and high system throughput.',
+              value: 'Delivered execution output using WebSockets for real-time updates.',
               display: true,
             },
           ],
         },
         skills: {
           display: true,
-          value: '<b>Stack</b>: <i>Docker, Redis, React.js, Node.js, WebSockets, JavaScript</i>',
+          value: 'Docker, Redis, React, Node.js, WebSockets',
         },
         startDate: {
           value: '',
@@ -341,7 +334,7 @@ export const INITIAL_CONFIG = {
           display: true,
         },
         description: {
-          value: 'Java-based downloader using multithreading to accelerate file transfers.',
+          value: 'Java-based multithreaded downloader.',
           display: false,
         },
         highlights: {
@@ -349,24 +342,22 @@ export const INITIAL_CONFIG = {
           value: [
             {
               value:
-                'Developed a Java-based downloader using <b>multithreading</b>, accelerating file transfers by <b>55%</b> for large datasets.',
+                'Implemented a Java-based downloader using multithreading to improve download speed.',
               display: true,
             },
             {
-              value:
-                'Leveraged <b>HTTP range requests</b> for parallel chunk downloads, minimizing bandwidth usage.',
+              value: 'Used HTTP range requests to download file segments in parallel.',
               display: true,
             },
             {
-              value:
-                'Integrated resource-efficient thread management, lowering CPU utilization by <b>20%</b>.',
+              value: 'Optimized thread usage to reduce unnecessary CPU overhead.',
               display: true,
             },
           ],
         },
         skills: {
           display: true,
-          value: '<b>Stack</b>: <i>Java, Multithreading</i>',
+          value: 'Java, Multithreading',
         },
         startDate: {
           value: '',
@@ -388,8 +379,8 @@ export const INITIAL_CONFIG = {
     display: true,
     value: [
       'Secured <b>14th place</b> among 200+ teams in the Re-Imagining Markets Datathon.',
-      'Honored with the <b>Wells Fargo Spotlight Award</b> in 2024 for outstanding performance and contributions.',
-      'Ranked in the <b>top 1%</b> nationwide in JEE Advanced (2019).',
+      'Received the <b>Wells Fargo Spotlight Award</b> in <i>2024</i>.',
+      'Ranked in the <b>top 1%</b> nationwide in JEE Advanced (<i>2019</i>).',
     ],
   },
 }
